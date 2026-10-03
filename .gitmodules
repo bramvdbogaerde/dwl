@@ -1,0 +1,6 @@
+[submodule "patches/dwl-ipc"]
+	path = patches/000-dwl-ipc
+	url = https://codeberg.org/julmajustus/dwl.git
+[submodule "patches/000-dwl-ipc"]
+	path = patches/000-dwl-ipc
+	url = https://codeberg.org/julmajustus/dwl.git
