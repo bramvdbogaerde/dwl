@@ -2,7 +2,8 @@
 
 PATCHES=$(ls -l patches/ | awk 'NR>1 {print $9}')
 
-for patch in $PATCHES; do
-    git pull patches/$patch --rebase
-done
+git checkout -B patches main
 
+for patch in $PATCHES; do
+    git pull patches/$patch --rebase --no-edit
+done
